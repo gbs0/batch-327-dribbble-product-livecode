@@ -1,45 +1,62 @@
 .card-product {
-  
+  padding: 16px;
+  margin: auto;
+  width: 400px;
+  background-color: #E6E6E6;
+  border-radius: 8px;
 }
 
 .card-product-top {
-  
+  display: flex;
+  justify-content: space-around;
 }
 
 .card-product-top-image {
-  
+  position: relative;
+  width: 50%;
 }
 
 .card-product-top-image .position-icon {
-  
+  position: absolute;
+  color: #FD77A0;
+  margin-left: 8px;
+  margin-top: 8px;
 }
 
 .card-product-info {
-  
+  padding-left: 16px;
+  width: 50%;
 }
 
 .card-product-info i {
-  
+  color: #FBB434;
 }
 
 .card-product-middle {
-  
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  margin: 16px 0;
 }
 
 .card-product-bottom img {
-  
+  object-fit: cover;
+  height: 70px;
+  flex-grow: 1;
 }
 
 .card-product-bottom img:first-child {
-  
+  margin: 0;
+  margin-right: 8px;
 }
 
 .card-product-bottom img:last-child {
-  
+  margin: 0;
+  margin-left: 8px;
 }
 
 .card-product-bottom {
-  
+  display: flex;
 }
 
 

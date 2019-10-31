@@ -1,7 +1,13 @@
 .btn-green {
-  
+	display: block;
+	padding: 8px 52px;
+	background-color: #3DBF59;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	margin-top: 8px;
 }
 
 .btn-green:hover {
-  
+  background-color: #37AB51;
 }
